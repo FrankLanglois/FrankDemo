@@ -1,0 +1,71 @@
+.mainContainer {
+  /*margin-top: 2em;*/
+  margin-top:50px;
+  padding: 2em;
+  widht:50%;
+}
+
+.routerOutlet {
+  margin: 4em 0 0 5%;
+  /*background-color: #FEFBE0;*/
+  max-width: 90%;
+  /*padding: 2em 0 0 10em;*/
+}
+
+.bgBlue {
+  background-color: #1976D2;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  margin: 0 0.6em;
+  padding-bottom: 40px;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #1e8fd2 !important;
+}
+
+.btnSection {
+  margin:0 0 0 50px;
+}
+
+.btnLeftMargin {
+  margin-left: 15px;
+}
+
+.pipes {
+  border: solid 1px black;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.accordion {
+  margin-bottom: 20px;
+}
+
+.accordion-group {
+  margin-bottom: 2px;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion-heading {
+  border-bottom: 0;
+}
+
+.accordion-heading .accordion-toggle {
+  display: block;
+  padding: 8px 15px;
+}
+
+.accordion-toggle {
+  cursor: pointer;
+}
+
+.accordion-inner {
+  padding: 9px 15px;
+  border-top: 1px solid #e5e5e5;
+}

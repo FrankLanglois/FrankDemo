@@ -1,0 +1,7 @@
+<h4>{{title}}</h4>
+<p><i>Fetches after each keystroke</i></p>
+<ul>
+  <li *ngFor="let item of items | async">{{item}}</li>
+</ul>
+<input #term (keyup)="search(term.value);" />
+
